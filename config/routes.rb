@@ -1,4 +1,8 @@
 Comic::Application.routes.draw do
+  get "messages/index"
+
+  get "messages/new"
+
   get "static/index"
 
   # The priority is based upon order of creation:
